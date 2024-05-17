@@ -74,6 +74,8 @@ Here's an example of how to run an R script inside an RMarkdown file:
 ### Chart 2
 
 Include a chart
+```{r, echo = FALSE, code = readLines("Chart 2.R")}
+```
 
 Describe why you chose this chart and what information it reveals
 
