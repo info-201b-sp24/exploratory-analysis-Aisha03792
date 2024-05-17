@@ -1,17 +1,23 @@
 # Load ggplot2
 library(ggplot2)
 
-
 foundation_dataset <- read.csv("https://raw.githubusercontent.com/the-pudding/data/master/makeup-shades/shades.csv")
 
+#filtering data just to get the two brands!
 
-# Plotting Bar
-ggplot(data = foundation_dataset) + 
+filtered_data <- subset(foundation_dataset, brand %in% c("House of Tara", "Estée Lauder"))
+
+# Bar graph
+ggplot(data = filtered_data) + 
   geom_bar(mapping = aes(
     x = product,
-    y = product, 
-    fill = "Fenty"), 
+    y = brand, 
+    fill = "identification"), 
     stat = "identity") + 
-  ggtitle("Revenue When Shades Options Increase Over The Years")
+  ggtitle("Nigerain Based .Vs. American Based")
+
+
+
+
 
   
