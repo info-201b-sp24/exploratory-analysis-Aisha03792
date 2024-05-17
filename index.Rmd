@@ -63,13 +63,9 @@ Describe why you included the table and what information it reveals
 ### Chart 1
 
 Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-```{r, echo = FALSE, code = readLines("chart1_example.R")}
+```{r, echo = FALSE, code = readLines("Chart 1.R")}
 ```
+Describe why you chose this chart and what information it reveals
 
 ### Chart 2
 
@@ -82,10 +78,10 @@ Describe why you chose this chart and what information it reveals
 ### Chart 3
 Include a chart
 
-Describe why you chose this chart and what information it reveals
-
 ```{r, echo = FALSE, code = readLines("Chart 3.R")}
 ```
+
+Describe why you chose this chart and what information it reveals!
 
 In this chart, I have decided to evaluate the Saturation levels between Fenty and Mac Cosmetics in a bar chart model. Saturation is defined as “the level of intensity of a color”. Fenty is represented in Red, while Mac is represented in Blue. As we observe the chart, we can identify that Fenty has a higher saturation level than Mac. Why is that? When we look at the amount of dark shades Fenty produces compared to Mac, Fenty is the overall winner. Darker shades are mainly attributed to how saturated the shade is compared to lighter shades/colors. 
 
