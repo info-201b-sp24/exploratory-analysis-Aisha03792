@@ -1,8 +1,5 @@
 # Summary
 
-
-
-
 # Table: Fenty x Mac Cosmetics (2018)
 
 library(tidyverse)
