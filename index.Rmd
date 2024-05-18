@@ -24,7 +24,7 @@ The objective of this project is to conduct an analysis of the foundation shade 
 
 Beauty: Foundation shades
 Inclusivity: Shade Diversity 
-Inclusivity: Possible clientele
+Color : Hues, Saturations
 
 ### Introduction  
 
@@ -36,7 +36,13 @@ These questions are important to address because we want to investigate how prom
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+Diversity of makeup shades- We are comparing MAC cosmetics foundation of 63 shades with Fenty beauty foundation of 58 shades. https://pudding.cool/2018/06/makeup-shades/ (https://pudding.cool/2018/06/makeup-shades/) -"Compares Fenty Beauty foundation shades with the other brands’ shades. (BIPOC founded vs white founded)" This analysis compares the diversity of Fenty Beauty’s shades with other makeup brands’ shades. It also analyses the availability of foundation shades in different countries such as Nigeria, Japan, and India. It analyses the global inclusivity. It contributes to the current debate about the inclusivity in the beauty industry and across different brands and countries. 
+
+Examples of similar work:     
+• "A 21-year-old blogger is sharing charts that break down foundation shade ranges to prove the beauty industry isn't as inclusive as it says it is" -https://www.businessinsider.com/beauty-blogger-is-analyzing-foundation-shade-ranges-2021-4 (https://www.businessinsider.com/beauty-blogger-is-analyzing-foundation-shade-ranges-2021-4)    
+• "Beyond Light, Medium, and Dark: Diversity and Inclusivity in the Makeup and Beauty Industries" -https://digitalcommons.wku.edu/cgi/viewcontent.cgi?article=1838&context=stu_hon_theses (https://digitalcommons.wku.edu/cgi/viewcontent.cgi?article=1838&context=stu_hon_theses)    
+• "Embracing Diversity: The Beauty of Inclusive Makeup Shades" - https://www.linkedin.com/pulse/embracing-diversity-beauty-inclusive-makeup-shades-mariska-blom/ (https://www.linkedin.com/pulse/embracing-diversity-beauty-inclusive-makeup-shades-mariska-blom/) 
+
 
 ### The Dataset
 
