@@ -9,7 +9,8 @@ Give your project a concise, interesting title that summarizes the entirety of y
 
 ### Authors
 
-Aisha Abdulkarim, Giselle Calvorio, Sumaya Mahamed, Aditi Manjunath  
+Aisha Abdulkarim (aishaa19@uw.edu), Giselle Calvario (gcalva@uw.edu), 
+Sumaya Mahamed (sumaha@uw.edu), Aditi Manjunath (aditim4@uw.edu) 
 
 ### Date
 
@@ -21,8 +22,9 @@ No more than three sentences that summarize your project. Focus on the very most
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Beauty: Foundation shades
+Inclusivity: Shade Diversity 
+Inclusivity: Possible clientele
 
 ### Introduction  
 
@@ -45,7 +47,8 @@ What are possible limitations or problems with this data?   (at least 200 words)
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+This analysis can have many implications. For example, Technologists can explore the underlying mechanisms behind both of the shade-matching algorithms between the brands. By finding out the hue, saturation, and lightness of the foundation shades, it could lead to a better understanding of color-matching algorithms and technology which could lead to more inclusivity as well as accuracy in shades in makeup products in the future. In addition, policymakers can gain insight into the implications of shade inclusivity in the beauty industry for regulations and guidelines. This can help them explore ways to enforce diversity and inclusivity standards in the cosmetic industry and manufacturing of products. This can help ensure that consumers have access to products suiting their diverse skin tones. The interesting implication that the comparison of hue, saturation, and lightness can have is, does the brand has many shades where the shades are pretty similar and not as spread out, or are the shades more spread out and different from each other? This is what we wanted to explore with this analysis. 
+
 
 ### Limitations & Challenges
 What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
@@ -62,28 +65,28 @@ Describe why you included the table and what information it reveals
 
 ### Chart 1: Histogram
 
-Include a chart
 ```{r, echo = FALSE, code = readLines("Chart 1.R")}
 ```
+
+Include a chart
 Describe why you chose this chart and what information it reveals
 
 ### Chart 2: Box Plot
 
-Include a chart
 ```{r, echo = FALSE, code = readLines("Chart 2.R")}
 ```
 
-Describe why you chose this chart and what information it reveals
+I used a box plot to compare the hues of foundations from Fenty and Mac. From this plot it is evident that is more inclusive of medium and darker skin tones. The range is greater for Fenty foundations hues as well.
+
 
 ### Chart 3: Bar Graph
-
 
 ```{r, echo = FALSE, code = readLines("Chart 3.R")}
 ```
 
-Describe why you chose this chart and what information it reveals!
+This Bar Chart is included to show the difference in Saturation Levels of Foundation Shades between Fenty Beauty and Mac Cosmetics. Saturation is defined as “The level of intensity of a color”. The purpose of this graph is to show which brand had the highest saturation level and answer our question of, What role does Saturation levels play in Shade ranges. 
 
-In this chart, I have decided to evaluate the Saturation levels between Fenty and Mac Cosmetics in a bar chart model. Saturation is defined as “the level of intensity of a color”. Fenty is represented in Red, while Mac is represented in Blue. As we observe the chart, we can identify that Fenty has a higher saturation level than Mac. Why is that? When we look at the amount of dark shades Fenty produces compared to Mac, Fenty is the overall winner. Darker shades are mainly attributed to how saturated the shade is compared to lighter shades/colors. 
+For the bar chart, *“Fenty vs. Mac: Saturation Level Differences”*, we are evaluating the saturation levels, from the lowest at 0.0 and the highest at 0.8. As we observe the chart, we can identify that Fenty has a higher saturation level than Mac. Why is that? When we look at the number of dark shades Fenty produces compared to Mac, Fenty is the overall winner in producing Dark shades due to its high customer base who have a darker skin tone, while also including the fact that the Company is owned by a woman of color. 
 
 
 ### Citations 
