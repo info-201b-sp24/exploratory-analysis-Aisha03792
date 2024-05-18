@@ -86,15 +86,14 @@ The above data set shows the comparison of lightness shades of the two brands Fe
 ```{r, echo = FALSE, code = readLines("Chart 2.R")}
 ```
 
-I used a box plot to compare the hues of foundations from Fenty and Mac. From this plot it is evident that is more inclusive of medium and darker skin tones. The range is greater for Fenty foundations hues as well.
-
+I used a box plot to compare the hues of foundations from Fenty and Mac. From this plot, it is evident that is more inclusive of medium and darker skin tones. The range is greater for Fenty foundations hues as well. The wider hue range implies that there’s inclusivity and broader skin tones are accommodated. A variety of skin tones can be matched with a wider hue range. Hence Fenty, having a wider hue range is able to have foundation shades that match more skin tones.
 
 ### Chart 3: Bar Graph
 
-This Bar Chart is included to show the difference in Saturation Levels of Foundation Shades between *Fenty Beauty and Mac Cosmetics*. According to *Iredale, J.*, saturation is defined as “How Intense the color is.”. The purpose of this chart is to show which brand had the highest saturation level and answer our question of, What role does Saturation levels play in Shade ranges. 
-
 ```{r, echo = FALSE, code = readLines("Chart 3.R")}
 ```
+
+This Bar Chart is included to show the difference in Saturation Levels of Foundation Shades between *Fenty Beauty and Mac Cosmetics*. According to *Iredale, J.*, saturation is defined as “How Intense the color is.”. The purpose of this chart is to show which brand had the highest saturation level and answer our question of, What role does Saturation levels play in Shade ranges. 
 
 From the bar chart, “Fenty vs. Mac: Saturation Level Differences”, we are evaluating the saturation levels, from the lowest at 0.0 and the highest at 0.8. As we observe the chart, we can identify that Fenty has a higher saturation level than Mac. Why is that? When we look at the number of dark shades Fenty produces compared to Mac, Fenty is the overall winner in producing Dark shades due to its high customer base who have a darker skin tone, while also including the fact that the Company is owned by a woman of color.  Darker shades are mainly attributed to how saturated the shade is compared to lighter shades/colors. When shades have higher results of saturation it results in foundation shades or colors being darker and when the saturation is low the lighter the color, in this case, the lighter the foundation shade. 
 
