@@ -91,8 +91,6 @@ For the bar chart, “Fenty vs. Mac: Saturation Level Differences”, we are eva
 According to our dataset, Mac had released 42 Foundation shades, while Fenty had released 39 Foundation shades when this data was taken. Even though Mac seems to have the advantage because they have released more shades compared to Fenty, why is their saturation level low? This might have been influenced by them releasing foundation shades that were lighter and or releasing a smaller variation of dark shades than they have for lighter shades. This is not just something that relates to Mac and Fenty but the majority of beauty companies tend to drop more light-based shades in the early stages of production and then expand to darker shades as they get more consumers. 
 
 
-
 ### Citations 
-cite the sources you used when talking more indept about you charts or about other parts of this project. 
 
 Cosmetics, S. (2023, September 25). How to create and adjust various shades of foundation adapted to skin tones. Sensient Beauty. https://sensient-beauty.com/insights/how-to-create-and-adjust-various-shades-of-foundation-adapted-to-skin-tones/ 
