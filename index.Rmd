@@ -28,7 +28,11 @@ Inclusivity: Possible clientele
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+Our project is focused on the inclusivity of foundation ranges with two brands such as Fenty Beauty and Mac. For many years, there has been ongoing demand and concerns regarding inclusivity in the beauty industry. It is common knowledge, how diversity is glaringly insufficient and undesirable in today's progressive society. The darker shades of foundation on the color spectrum are usually limited and not many people of color have access to a wider range of shades within their skin tone. Despite people of color perpetually voicing their concerns about the lack of diversity. Unfortunately, many well-known brands disregard these claims and instead, they consistently cater to a lighter range of skin tones. No matter how many times consumers raise their voices, it has become apparent that disregarding the inclusivity of a certain population is a very detrimental oversight. Considering the fact that customers can wield their purchasing power anytime for a change. After many years, now the beauty industry is slowly evolving and some changes have been pioneered with brands like Fenty Beauty. Especially brands like Fenty Beauty a Black-owned brand, is known for advocating for inclusivity and her foundation ranges are more diverse than any other brands. 
+
+Some research questions that we want to address in our project are what ranges of foundation shades are offered compared to different brands? Also how diverse are the lightness, saturation, and hues of each of the undertones of the brands? and how each brand shows inclusivity within its foundation ranges?
+
+These questions are important to address because we want to investigate how prominent it is to have inclusivity when it comes to the beauty industry. Moreover, we want the beauty industry to cater to all skin tones and not be biased when it comes to representing people of color.
 
 ### Related Work  
 
@@ -68,8 +72,7 @@ Describe why you included the table and what information it reveals
 ```{r, echo = FALSE, code = readLines("Chart 1.R")}
 ```
 
-Include a chart
-Describe why you chose this chart and what information it reveals
+The above data set shows the comparison of lightness shades of the two brands Fenty and Mac. Observing the data set you can see how Fenty Foundation has more darker shades than the brand Mac. On the other hand, Mac has more frequency of lightness foundation than Fenty. For example, in the dataset, Mac has six brands of foundation that appear to be lighter and one shade that is darker. Additionally, in this dataset, the brand Mac appears to cater to more lightness instead of having an equal distribution of shade ranges like Fenty. Moreover, one can make the inference that if you are a person of color then a wiser choice would be to use Fenty Foundation as it appears to be more inclusive than Mac.
 
 ### Chart 2: Box Plot
 
