@@ -13,7 +13,7 @@ Aisha Abdulkarim, Giselle Calvorio, Sumaya Mahamed, Aditi Manjunath
 
 ### Date
 
-May 17, 2024
+May 18, 2024
 
 ### Abstract
 
@@ -60,14 +60,14 @@ Include a table of aggregate information
 
 Describe why you included the table and what information it reveals
 
-### Chart 1
+### Chart 1: Histogram
 
 Include a chart
 ```{r, echo = FALSE, code = readLines("Chart 1.R")}
 ```
 Describe why you chose this chart and what information it reveals
 
-### Chart 2
+### Chart 2: Box Plot
 
 Include a chart
 ```{r, echo = FALSE, code = readLines("Chart 2.R")}
@@ -75,8 +75,8 @@ Include a chart
 
 Describe why you chose this chart and what information it reveals
 
-### Chart 3
-Include a chart
+### Chart 3: Bar Graph
+
 
 ```{r, echo = FALSE, code = readLines("Chart 3.R")}
 ```
@@ -86,3 +86,7 @@ Describe why you chose this chart and what information it reveals!
 In this chart, I have decided to evaluate the Saturation levels between Fenty and Mac Cosmetics in a bar chart model. Saturation is defined as “the level of intensity of a color”. Fenty is represented in Red, while Mac is represented in Blue. As we observe the chart, we can identify that Fenty has a higher saturation level than Mac. Why is that? When we look at the amount of dark shades Fenty produces compared to Mac, Fenty is the overall winner. Darker shades are mainly attributed to how saturated the shade is compared to lighter shades/colors. 
 
 
+### Citations 
+cite the sources you used when talking more indept about you charts or about other parts of this project. 
+
+Cosmetics, S. (2023, September 25). How to create and adjust various shades of foundation adapted to skin tones. Sensient Beauty. https://sensient-beauty.com/insights/how-to-create-and-adjust-various-shades-of-foundation-adapted-to-skin-tones/ 
