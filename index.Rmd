@@ -34,14 +34,43 @@ Describe your topic and related work in this space. You must include 3 citations
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
+Where did you find the data? Please include a link to the data source 
+
+The article “Beauty Brawl: How inclusive are beauty brands around the world?” from ThePudding. https://pudding.cool/2018/06/makeup-shades/ 
+
+Original Data: https://raw.githubusercontent.com/the-pudding/data/master/makeup-shades/shades.csv 
+
 Who collected the data?  
+
+Amber Thomas and Divya Manian collected the data. Also, a third person named Jason Li illustrated and composed the story.
+
 How was the data collected or generated?  
+  
+The Data was collected by taking the hexadecimal color code diagram with inventory of every shade available per brand. From there, using photo-shop, the data analyst team used the CIE Lab color model to extract the lightness value of each shade to see if the brand caters towards lighter or darker complexions.
+
 Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
+
+The data was collected in order to find out which brand has the most inclusive line foundation for a variety of skin tones as well as an even distribution between light and darker shades.
+
+How many observations (rows) are in your data? 
+
+There are 625 rows. The brands observed in the data are Fenty: USA, Make Up For Ever: USA, House of Tara, Elsas Pro, Hegai and Ester, Trim and Prissy, Kuddy, Addiction, IPSA, MAC, Lancome, Bobbi Brown, Beauty Bakerie, Black Up, Laws of Nature, Black Opal, Iman, NARS: Japan, Shu Uemera: Japan, Shiseido: Japan, Kate: Japan, Dior: Japan, Maybelline: Japan, L’Oréal: India, Bharat & Doris: India, Nykaa: India, Lakmé: India, Olivia: India, Lotus Herbals: India, Colorbar: India, Blue Heaven: India, Estee Lauder: USA, Maybelline: USA, bareMinerals: USA, Revlon: USA, L’Oréal: USA, and Covergirl+Olay: USA. We will be focusing on Fenty and Mac cosmetics.
+
+How many features (columns) are in the data? 
+ 
+There are 10 columns. 
+
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
+  
+A question of power we need to take into consideration is the power imbalance between BIPOC owned brands and Non-BIPOC owned brands. Many non-BIPOC owned brands such as MAC have the brand exposure in comparison to others. In our case Fenty, a cosmetic brand owned by Rhianna receives publicity exposure; however, due to Rhianna’s popularity her makeup brand receives plenty of publicity, but the inequity overall between brand exposure still applies. 
+
+  
 What are possible limitations or problems with this data?   (at least 200 words)
+
+Possible limitations of the data are the use of popular brands and the shade range comparisons in varying countries. The purpose of comparing the shades between different countries is to show the most popular shade ranges a brand offers within the country to their target market. For example, the popular makeup brands in Japan include international brands such as NARS and Dior. Shade availability in Japan is limited due to common racial demographics and skin tones leaning toward the lighter half of the color scale. However, this does not fairly represent the brand internationally and promote the full range of foundation shades the brand currently makes.
+
+The selection data used for comparison may lead to biased base data collection and improper representation of an international brand with a more extensive shade range in a different country. The Data may also lead to misinformation if taken out of context. The article addresses these issues when comparing different countries, but if people only take the data without the full reasoning for the data collection, it can be used to create a biased narrative towards a brand or Country. The topic of diversifying foundation shade range stems from colorist and racist origins by many brands offering a limited shade range, favoring lighter shades over darker ones. Due to the topic's sensitivity, mislabeling a brand can be detrimental to the brand. It also diminishes the collected data to inform people looking for darker shade ranges of what is available for them on the market to purchase and what brands truly need to improve their shade range. Luckily, for our project we will be focusing brands within the United States to narrow down our data to prevent confusion and misinformation.
+
 
 ### Implications
 
@@ -63,7 +92,9 @@ Describe why you included the table and what information it reveals
 ### Chart 1
 
 Include a chart
-
+```{r}
+view(fenty_x_mac_table)
+```
 Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:

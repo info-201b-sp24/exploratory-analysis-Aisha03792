@@ -1,15 +1,9 @@
-# Summary
-
-
-
-
 # Table: Fenty x Mac Cosmetics (2018)
 
 library(tidyverse)
 library(dplyr)
 
-original_data <- read.csv("https://raw.githubusercontent.com/the-pudding/data/master/makeup-shades/shades.csv")
-read.csv("shades.csv")
+original_data <- read.csv("shades.csv")
 
 all_brands <- select(original_data, c(brand, product, hex, H, S, L))
 
