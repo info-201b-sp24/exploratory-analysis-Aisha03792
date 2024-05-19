@@ -570,7 +570,19 @@ range.</strong></p>
 </div>
 <div id="table" class="section level3">
 <h3>Table</h3>
-<pre><code>## [1] &quot;The table includes the product type and hexadecimal color to further identify the individual shade aside from the brand and product name as they are all the same.The columns chosen are the hue, saturation, and lightness variables as they are the information we decipher in the graphs. We chose to rename the hex, hue, saturation, and lightness columns to prevent misinformation of the data. The original data  had labeled the information using abbreviations (hex, H, S, L) which took a bit of searching on our part to find the meaning of each abbreviation. Once locating the key we chose to change the column name to make it accessible to readers who are unfamiliar with the topic. The table serves as a summary for the information presented in the graphs. The table is framed from highest lightness scale to the lowest, split between the two brands. &quot;</code></pre>
+<p>The table includes the product type and hexadecimal color to further
+identify the individual shade aside from the brand and product name as
+they are all the same.The columns chosen are the hue, saturation, and
+lightness variables as they are the information we decipher in the
+graphs. We chose to rename the hex, hue, saturation, and lightness
+columns to prevent misinformation of the data. The original data had
+labeled the information using abbreviations (hex, H, S, L) which took a
+bit of searching on our part to find the meaning of each abbreviation.
+Once locating the key we chose to change the column name to make it
+accessible to readers who are unfamiliar with the topic. The table
+serves as a summary for the information presented in the graphs. The
+table is framed from highest lightness scale to the lowest, split
+between the two brands.</p>
 <pre><code>## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ## ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ## ✔ forcats   1.0.0     ✔ stringr   1.5.1
@@ -582,6 +594,676 @@ range.</strong></p>
 ## ✖ dplyr::lag()    masks stats::lag()
 ## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
 ## Joining with `by = join_by(brand, product, hex, H, S, L)`</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Brand</th>
+<th align="left">Product</th>
+<th align="left">Shade_Code</th>
+<th align="right">Hue</th>
+<th align="right">Saturation</th>
+<th align="right">Lightness</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">583218</td>
+<td align="right">24</td>
+<td align="right">0.73</td>
+<td align="right">25</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">683a20</td>
+<td align="right">22</td>
+<td align="right">0.69</td>
+<td align="right">30</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">6d3b20</td>
+<td align="right">21</td>
+<td align="right">0.71</td>
+<td align="right">31</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">7d452c</td>
+<td align="right">19</td>
+<td align="right">0.65</td>
+<td align="right">36</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">824f30</td>
+<td align="right">23</td>
+<td align="right">0.63</td>
+<td align="right">39</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">894f29</td>
+<td align="right">24</td>
+<td align="right">0.70</td>
+<td align="right">40</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">9d5d2d</td>
+<td align="right">26</td>
+<td align="right">0.71</td>
+<td align="right">46</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">9b5b35</td>
+<td align="right">22</td>
+<td align="right">0.66</td>
+<td align="right">46</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">a65e23</td>
+<td align="right">27</td>
+<td align="right">0.79</td>
+<td align="right">48</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">a86b3f</td>
+<td align="right">25</td>
+<td align="right">0.63</td>
+<td align="right">51</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">ab6939</td>
+<td align="right">25</td>
+<td align="right">0.67</td>
+<td align="right">51</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">ac7752</td>
+<td align="right">25</td>
+<td align="right">0.52</td>
+<td align="right">55</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">b67849</td>
+<td align="right">26</td>
+<td align="right">0.60</td>
+<td align="right">56</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">bd7b45</td>
+<td align="right">27</td>
+<td align="right">0.63</td>
+<td align="right">58</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">c98256</td>
+<td align="right">23</td>
+<td align="right">0.57</td>
+<td align="right">61</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">ca875a</td>
+<td align="right">24</td>
+<td align="right">0.55</td>
+<td align="right">63</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">ca9262</td>
+<td align="right">28</td>
+<td align="right">0.51</td>
+<td align="right">65</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">d28f58</td>
+<td align="right">27</td>
+<td align="right">0.58</td>
+<td align="right">65</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">d39063</td>
+<td align="right">24</td>
+<td align="right">0.53</td>
+<td align="right">66</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">d39156</td>
+<td align="right">28</td>
+<td align="right">0.59</td>
+<td align="right">66</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">d59d6d</td>
+<td align="right">28</td>
+<td align="right">0.49</td>
+<td align="right">69</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">d9a57d</td>
+<td align="right">26</td>
+<td align="right">0.42</td>
+<td align="right">72</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">dca77d</td>
+<td align="right">27</td>
+<td align="right">0.43</td>
+<td align="right">73</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">e2ad85</td>
+<td align="right">26</td>
+<td align="right">0.41</td>
+<td align="right">75</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">dfad89</td>
+<td align="right">25</td>
+<td align="right">0.39</td>
+<td align="right">75</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">e4ac7c</td>
+<td align="right">28</td>
+<td align="right">0.46</td>
+<td align="right">75</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">dcb17d</td>
+<td align="right">33</td>
+<td align="right">0.43</td>
+<td align="right">75</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">e7ae85</td>
+<td align="right">25</td>
+<td align="right">0.42</td>
+<td align="right">76</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">e8bfa3</td>
+<td align="right">24</td>
+<td align="right">0.30</td>
+<td align="right">80</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">e8bc99</td>
+<td align="right">27</td>
+<td align="right">0.34</td>
+<td align="right">80</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">eeba93</td>
+<td align="right">26</td>
+<td align="right">0.38</td>
+<td align="right">80</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">e9c39f</td>
+<td align="right">29</td>
+<td align="right">0.32</td>
+<td align="right">81</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">f4cca8</td>
+<td align="right">28</td>
+<td align="right">0.31</td>
+<td align="right">85</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">efd1b7</td>
+<td align="right">28</td>
+<td align="right">0.23</td>
+<td align="right">86</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">f2d3b1</td>
+<td align="right">31</td>
+<td align="right">0.27</td>
+<td align="right">87</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">fad5b8</td>
+<td align="right">26</td>
+<td align="right">0.26</td>
+<td align="right">88</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">fce1c6</td>
+<td align="right">30</td>
+<td align="right">0.21</td>
+<td align="right">91</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">fde3cc</td>
+<td align="right">28</td>
+<td align="right">0.19</td>
+<td align="right">92</td>
+</tr>
+<tr class="odd">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">fde7da</td>
+<td align="right">22</td>
+<td align="right">0.14</td>
+<td align="right">93</td>
+</tr>
+<tr class="even">
+<td align="left">Fenty</td>
+<td align="left">PRO FILT’R</td>
+<td align="left">fde9de</td>
+<td align="right">21</td>
+<td align="right">0.12</td>
+<td align="right">94</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">724a32</td>
+<td align="right">23</td>
+<td align="right">0.56</td>
+<td align="right">36</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">a0714d</td>
+<td align="right">26</td>
+<td align="right">0.52</td>
+<td align="right">52</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">a77246</td>
+<td align="right">27</td>
+<td align="right">0.58</td>
+<td align="right">53</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">a9734e</td>
+<td align="right">24</td>
+<td align="right">0.54</td>
+<td align="right">54</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">b27949</td>
+<td align="right">27</td>
+<td align="right">0.59</td>
+<td align="right">56</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">ae7a50</td>
+<td align="right">27</td>
+<td align="right">0.54</td>
+<td align="right">56</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">b28050</td>
+<td align="right">29</td>
+<td align="right">0.55</td>
+<td align="right">58</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">b38456</td>
+<td align="right">30</td>
+<td align="right">0.52</td>
+<td align="right">59</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">b5855a</td>
+<td align="right">28</td>
+<td align="right">0.50</td>
+<td align="right">60</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">b9855a</td>
+<td align="right">27</td>
+<td align="right">0.51</td>
+<td align="right">60</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d5844b</td>
+<td align="right">25</td>
+<td align="right">0.65</td>
+<td align="right">63</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">db864d</td>
+<td align="right">24</td>
+<td align="right">0.65</td>
+<td align="right">64</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">c39368</td>
+<td align="right">28</td>
+<td align="right">0.47</td>
+<td align="right">65</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d79051</td>
+<td align="right">28</td>
+<td align="right">0.62</td>
+<td align="right">66</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">c5986d</td>
+<td align="right">29</td>
+<td align="right">0.45</td>
+<td align="right">66</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">c9a177</td>
+<td align="right">31</td>
+<td align="right">0.41</td>
+<td align="right">69</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">cba275</td>
+<td align="right">31</td>
+<td align="right">0.42</td>
+<td align="right">70</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">cfa67d</td>
+<td align="right">30</td>
+<td align="right">0.40</td>
+<td align="right">71</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d0a87f</td>
+<td align="right">30</td>
+<td align="right">0.39</td>
+<td align="right">72</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d0a97b</td>
+<td align="right">32</td>
+<td align="right">0.41</td>
+<td align="right">72</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d1a88a</td>
+<td align="right">25</td>
+<td align="right">0.34</td>
+<td align="right">72</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d0ae84</td>
+<td align="right">33</td>
+<td align="right">0.37</td>
+<td align="right">73</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d1ac7f</td>
+<td align="right">33</td>
+<td align="right">0.39</td>
+<td align="right">73</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d2ae88</td>
+<td align="right">31</td>
+<td align="right">0.35</td>
+<td align="right">74</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d5ad89</td>
+<td align="right">28</td>
+<td align="right">0.36</td>
+<td align="right">74</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d3b18a</td>
+<td align="right">32</td>
+<td align="right">0.35</td>
+<td align="right">75</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d9b28d</td>
+<td align="right">29</td>
+<td align="right">0.35</td>
+<td align="right">75</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d5b293</td>
+<td align="right">28</td>
+<td align="right">0.31</td>
+<td align="right">75</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d8b593</td>
+<td align="right">30</td>
+<td align="right">0.32</td>
+<td align="right">76</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d4b588</td>
+<td align="right">36</td>
+<td align="right">0.36</td>
+<td align="right">76</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">d9b88f</td>
+<td align="right">33</td>
+<td align="right">0.34</td>
+<td align="right">77</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">dabc96</td>
+<td align="right">34</td>
+<td align="right">0.31</td>
+<td align="right">78</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">dbbc9f</td>
+<td align="right">29</td>
+<td align="right">0.27</td>
+<td align="right">78</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">dcbca2</td>
+<td align="right">27</td>
+<td align="right">0.26</td>
+<td align="right">79</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">e0c1a2</td>
+<td align="right">30</td>
+<td align="right">0.28</td>
+<td align="right">80</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">fbbe91</td>
+<td align="right">25</td>
+<td align="right">0.42</td>
+<td align="right">82</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">dfc7a8</td>
+<td align="right">34</td>
+<td align="right">0.25</td>
+<td align="right">82</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">e0c8ae</td>
+<td align="right">31</td>
+<td align="right">0.22</td>
+<td align="right">82</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">ffc9a9</td>
+<td align="right">22</td>
+<td align="right">0.34</td>
+<td align="right">85</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">e5d1be</td>
+<td align="right">29</td>
+<td align="right">0.17</td>
+<td align="right">85</td>
+</tr>
+<tr class="odd">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">ffd7b4</td>
+<td align="right">28</td>
+<td align="right">0.29</td>
+<td align="right">89</td>
+</tr>
+<tr class="even">
+<td align="left">MAC</td>
+<td align="left">Studio Fix</td>
+<td align="left">ffdbc2</td>
+<td align="right">25</td>
+<td align="right">0.24</td>
+<td align="right">90</td>
+</tr>
+</tbody>
+</table>
 <pre><code>## # A tibble: 82 × 6
 ## # Groups:   Hue [16]
 ##    Brand Product    Shade_Code   Hue Saturation Lightness
@@ -597,19 +1279,6 @@ range.</strong></p>
 ##  9 Fenty PRO FILT&#39;R a65e23        27       0.79        48
 ## 10 Fenty PRO FILT&#39;R a86b3f        25       0.63        51
 ## # ℹ 72 more rows</code></pre>
-<p>The table includes the product type and hexadecimal color to further
-identify the individual shade aside from the brand and product name as
-they are all the same.The columns chosen are the hue, saturation, and
-lightness variables as they are the information we decipher in the
-graphs. We chose to rename the hex, hue, saturation, and lightness
-columns to prevent misinformation of the data. The original data had
-labeled the information using abbreviations (hex, H, S, L) which took a
-bit of searching on our part to find the meaning of each abbreviation.
-Once locating the key we chose to change the column name to make it
-accessible to readers who are unfamiliar with the topic. The table
-serves as a summary for the information presented in the graphs. The
-table is framed from highest lightness scale to the lowest, split
-between the two brands.</p>
 </div>
 <div id="chart-1-histogram" class="section level3">
 <h3>Chart 1: Histogram</h3>
