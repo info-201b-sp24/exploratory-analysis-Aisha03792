@@ -111,16 +111,7 @@ Describe why you included the table and what information it reveals
 
 ### Chart 1: Histogram
 
-<<<<<<< HEAD
-Include a chart
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-```{r, echo = FALSE, code = readLines("chart1_example.R")}
-=======
 ```{r, echo = FALSE, code = readLines("Chart 1.R")}
->>>>>>> 2521b913ac65ec5258265228fff879656ace0b38
 ```
 
 The above data set shows the comparison of lightness shades of the two brands Fenty and Mac. Observing the data set you can see how Fenty Foundation has more darker shades than the brand Mac. On the other hand, Mac has more frequency of lightness foundation than Fenty. For example, in the dataset, Mac has six brands of foundation that appear to be lighter and one shade that is darker. Additionally, in this dataset, the brand Mac appears to cater to more lightness instead of having an equal distribution of shade ranges like Fenty. Moreover, one can make the inference that if you are a person of color then a wiser choice would be to use Fenty Foundation as it appears to be more inclusive than Mac.
