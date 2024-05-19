@@ -377,7 +377,7 @@ looking more into their Saturation, Hues, and Lightness.</p>
 </div>
 <div id="keywords" class="section level3">
 <h3>Keywords</h3>
-<p>Beauty: Foundation shades Inclusivity: Shade Diversity Inclusivity:
+<p>Beauty: Foundation shades, Shades: Hues and Saturations, Inclusivity:
 Possible clientele</p>
 </div>
 <div id="introduction" class="section level3">
@@ -414,10 +414,25 @@ color.</p>
 </div>
 <div id="related-work" class="section level3">
 <h3>Related Work</h3>
-<p>Describe your topic and related work in this space. You must include
-3 citations to related work (URLs to similar work, high quality articles
-from the popular press, research papers, etc. ) Please use a standard
-citation style of your choice. (at least 200 words)</p>
+<p>Diversity of makeup shades- We are comparing MAC cosmetics foundation
+of 42 shades with Fenty beauty foundation of 40 shades. <a href="https://pudding.cool/2018/06/makeup-shades/" class="uri">https://pudding.cool/2018/06/makeup-shades/</a> (<a href="https://pudding.cool/2018/06/makeup-shades/" class="uri">https://pudding.cool/2018/06/makeup-shades/</a>) -“Compares
+Fenty Beauty foundation shades with the other brands’ shades. (BIPOC
+founded vs white founded)” This analysis compares the diversity of Fenty
+Beauty’s shades with other makeup brands’ shades. It also analyses the
+availability of foundation shades in different countries such as
+Nigeria, Japan, and India. It analyses the global inclusivity. It
+contributes to the current debate about the inclusivity in the beauty
+industry and across different brands and countries.</p>
+<p>Examples of similar work:<br />
+• “A 21-year-old blogger is sharing charts that break down foundation
+shade ranges to prove the beauty industry isn’t as inclusive as it says
+it is” -<a href="https://www.businessinsider.com/beauty-blogger-is-analyzing-foundation-shade-ranges-2021-4" class="uri">https://www.businessinsider.com/beauty-blogger-is-analyzing-foundation-shade-ranges-2021-4</a>
+(<a href="https://www.businessinsider.com/beauty-blogger-is-analyzing-foundation-shade-ranges-2021-4" class="uri">https://www.businessinsider.com/beauty-blogger-is-analyzing-foundation-shade-ranges-2021-4</a>)<br />
+• “Beyond Light, Medium, and Dark: Diversity and Inclusivity in the
+Makeup and Beauty Industries” -<a href="https://digitalcommons.wku.edu/cgi/viewcontent.cgi?article=1838&amp;context=stu_hon_theses" class="uri">https://digitalcommons.wku.edu/cgi/viewcontent.cgi?article=1838&amp;context=stu_hon_theses</a>
+(<a href="https://digitalcommons.wku.edu/cgi/viewcontent.cgi?article=1838&amp;context=stu_hon_theses" class="uri">https://digitalcommons.wku.edu/cgi/viewcontent.cgi?article=1838&amp;context=stu_hon_theses</a>)<br />
+• “Embracing Diversity: The Beauty of Inclusive Makeup Shades” - <a href="https://www.linkedin.com/pulse/embracing-diversity-beauty-inclusive-makeup-shades-mariska-blom/" class="uri">https://www.linkedin.com/pulse/embracing-diversity-beauty-inclusive-makeup-shades-mariska-blom/</a>
+(<a href="https://www.linkedin.com/pulse/embracing-diversity-beauty-inclusive-makeup-shades-mariska-blom/" class="uri">https://www.linkedin.com/pulse/embracing-diversity-beauty-inclusive-makeup-shades-mariska-blom/</a>)</p>
 </div>
 <div id="the-dataset" class="section level3">
 <h3>The Dataset</h3>
@@ -528,8 +543,6 @@ financially or at all costs limit their potential customer reach.</p>
 </div>
 <div id="summary-information" class="section level3">
 <h3>Summary Information</h3>
-<p>Write a summary paragraph of findings that includes the 5 values
-calculated from your summary information R script</p>
 <p>There is a divide between white and black owned makeup companies when
 it comes to foundation shade. Through our research we attempt to answer
 the question of the varying shades in brand. Connecting the number of
@@ -557,7 +570,33 @@ range.</strong></p>
 </div>
 <div id="table" class="section level3">
 <h3>Table</h3>
-<p>Include a table of aggregate information</p>
+<pre><code>## [1] &quot;The table includes the product type and hexadecimal color to further identify the individual shade aside from the brand and product name as they are all the same.The columns chosen are the hue, saturation, and lightness variables as they are the information we decipher in the graphs. We chose to rename the hex, hue, saturation, and lightness columns to prevent misinformation of the data. The original data  had labeled the information using abbreviations (hex, H, S, L) which took a bit of searching on our part to find the meaning of each abbreviation. Once locating the key we chose to change the column name to make it accessible to readers who are unfamiliar with the topic. The table serves as a summary for the information presented in the graphs. The table is framed from highest lightness scale to the lowest, split between the two brands. &quot;</code></pre>
+<pre><code>## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ forcats   1.0.0     ✔ stringr   1.5.1
+## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+## ✔ purrr     1.0.2     
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+## Joining with `by = join_by(brand, product, hex, H, S, L)`</code></pre>
+<pre><code>## # A tibble: 82 × 6
+## # Groups:   Hue [16]
+##    Brand Product    Shade_Code   Hue Saturation Lightness
+##    &lt;chr&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;int&gt;      &lt;dbl&gt;     &lt;int&gt;
+##  1 Fenty PRO FILT&#39;R 583218        24       0.73        25
+##  2 Fenty PRO FILT&#39;R 683a20        22       0.69        30
+##  3 Fenty PRO FILT&#39;R 6d3b20        21       0.71        31
+##  4 Fenty PRO FILT&#39;R 7d452c        19       0.65        36
+##  5 Fenty PRO FILT&#39;R 824f30        23       0.63        39
+##  6 Fenty PRO FILT&#39;R 894f29        24       0.7         40
+##  7 Fenty PRO FILT&#39;R 9d5d2d        26       0.71        46
+##  8 Fenty PRO FILT&#39;R 9b5b35        22       0.66        46
+##  9 Fenty PRO FILT&#39;R a65e23        27       0.79        48
+## 10 Fenty PRO FILT&#39;R a86b3f        25       0.63        51
+## # ℹ 72 more rows</code></pre>
 <p>The table includes the product type and hexadecimal color to further
 identify the individual shade aside from the brand and product name as
 they are all the same.The columns chosen are the hue, saturation, and
@@ -571,8 +610,6 @@ accessible to readers who are unfamiliar with the topic. The table
 serves as a summary for the information presented in the graphs. The
 table is framed from highest lightness scale to the lowest, split
 between the two brands.</p>
-<p>Describe why you included the table and what information it
-reveals</p>
 </div>
 <div id="chart-1-histogram" class="section level3">
 <h3>Chart 1: Histogram</h3>

@@ -25,5 +25,5 @@ fenty_x_mac_table <- rename(fenty_x_mac_table, Shade_Code = hex)
 fenty_x_mac_table <- rename(fenty_x_mac_table, Hue = H)
 fenty_x_mac_table <- rename(fenty_x_mac_table, Saturation = S)
 fenty_x_mac_table <- rename(fenty_x_mac_table, Lightness = L)
-
+mac_x_fenty_table <- data.frame(fenty_x_mac_table)
 group_by(fenty_x_mac_table, Hue)
