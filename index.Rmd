@@ -3,30 +3,34 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
-
-Give your project a concise, interesting title that summarizes the entirety of your project
+## Diversity in the Makeup Industry
 
 ### Authors
 
-Aisha Abdulkarim, Giselle Calvorio, Sumaya Mahamed, Aditi Manjunath  
+Aisha Abdulkarim (aishaa19@uw.edu), Giselle Calvario (gcalva@uw.edu), 
+Sumaya Mahamed (sumaha@uw.edu), Aditi Manjunath (aditim4@uw.edu) 
 
 ### Date
 
-May 17, 2024
+May 18, 2024
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+The objective of this project is to conduct an analysis of the foundation shade offerings between two highly sought and leading cosmetic brands, Fenty Beauty and Mac Cosmetics. We are collecting and analyzing our data from, *The Pudding: Beauty Brawl*. We intend to evaluate which company provides a more diverse and inclusive range of foundation shades to their clients. Furthermore, we plan to explore the reasons why one might provide more shade range compared to the other by looking more into their Saturation, Hues, and Lightness. 
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Beauty: Foundation shades
+Inclusivity: Shade Diversity 
+Inclusivity: Possible clientele
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+Our project is focused on the inclusivity of foundation ranges with two brands such as Fenty Beauty and Mac. For many years, there has been ongoing demand and concerns regarding inclusivity in the beauty industry. It is common knowledge, how diversity is glaringly insufficient and undesirable in today's progressive society. The darker shades of foundation on the color spectrum are usually limited and not many people of color have access to a wider range of shades within their skin tone. Despite people of color perpetually voicing their concerns about the lack of diversity. Unfortunately, many well-known brands disregard these claims and instead, they consistently cater to a lighter range of skin tones. No matter how many times consumers raise their voices, it has become apparent that disregarding the inclusivity of a certain population is a very detrimental oversight. Considering the fact that customers can wield their purchasing power anytime for a change. After many years, now the beauty industry is slowly evolving and some changes have been pioneered with brands like Fenty Beauty. Especially brands like Fenty Beauty a Black-owned brand, is known for advocating for inclusivity and her foundation ranges are more diverse than any other brands. 
+
+Some research questions that we want to address in our project are what ranges of foundation shades are offered compared to different brands? Also how diverse are the lightness, saturation, and hues of each of the undertones of the brands? and how each brand shows inclusivity within its foundation ranges?
+
+These questions are important to address because we want to investigate how prominent it is to have inclusivity when it comes to the beauty industry. Moreover, we want the beauty industry to cater to all skin tones and not be biased when it comes to representing people of color.
 
 ### Related Work  
 
@@ -34,38 +38,38 @@ Describe your topic and related work in this space. You must include 3 citations
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source 
+**Where did you find the data? Please include a link to the data source** 
 
 The article “Beauty Brawl: How inclusive are beauty brands around the world?” from ThePudding. https://pudding.cool/2018/06/makeup-shades/ 
 
 Original Data: https://raw.githubusercontent.com/the-pudding/data/master/makeup-shades/shades.csv 
 
-Who collected the data?  
+**Who collected the data?**  
 
 Amber Thomas and Divya Manian collected the data. Also, a third person named Jason Li illustrated and composed the story.
 
-How was the data collected or generated?  
+**How was the data collected or generated?**  
   
 The Data was collected by taking the hexadecimal color code diagram with inventory of every shade available per brand. From there, using photo-shop, the data analyst team used the CIE Lab color model to extract the lightness value of each shade to see if the brand caters towards lighter or darker complexions.
 
-Why was the data collected?  
+**Why was the data collected?**  
 
 The data was collected in order to find out which brand has the most inclusive line foundation for a variety of skin tones as well as an even distribution between light and darker shades.
 
-How many observations (rows) are in your data? 
+**How many observations (rows) are in your data?** 
 
 There are 625 rows. The brands observed in the data are Fenty: USA, Make Up For Ever: USA, House of Tara, Elsas Pro, Hegai and Ester, Trim and Prissy, Kuddy, Addiction, IPSA, MAC, Lancome, Bobbi Brown, Beauty Bakerie, Black Up, Laws of Nature, Black Opal, Iman, NARS: Japan, Shu Uemera: Japan, Shiseido: Japan, Kate: Japan, Dior: Japan, Maybelline: Japan, L’Oréal: India, Bharat & Doris: India, Nykaa: India, Lakmé: India, Olivia: India, Lotus Herbals: India, Colorbar: India, Blue Heaven: India, Estee Lauder: USA, Maybelline: USA, bareMinerals: USA, Revlon: USA, L’Oréal: USA, and Covergirl+Olay: USA. We will be focusing on Fenty and Mac cosmetics.
 
-How many features (columns) are in the data? 
+**How many features (columns) are in the data?** 
  
 There are 10 columns. 
 
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
+**What, if any, ethical questions or questions of power do you need to consider when working with this data?**  
   
 A question of power we need to take into consideration is the power imbalance between BIPOC owned brands and Non-BIPOC owned brands. Many non-BIPOC owned brands such as MAC have the brand exposure in comparison to others. In our case Fenty, a cosmetic brand owned by Rhianna receives publicity exposure; however, due to Rhianna’s popularity her makeup brand receives plenty of publicity, but the inequity overall between brand exposure still applies. 
 
   
-What are possible limitations or problems with this data?   (at least 200 words)
+**What are possible limitations or problems with this data?   (at least 200 words)**
 
 Possible limitations of the data are the use of popular brands and the shade range comparisons in varying countries. The purpose of comparing the shades between different countries is to show the most popular shade ranges a brand offers within the country to their target market. For example, the popular makeup brands in Japan include international brands such as NARS and Dior. Shade availability in Japan is limited due to common racial demographics and skin tones leaning toward the lighter half of the color scale. However, this does not fairly represent the brand internationally and promote the full range of foundation shades the brand currently makes.
 
@@ -74,7 +78,8 @@ The selection data used for comparison may lead to biased base data collection a
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+This analysis can have many implications. For example, Technologists can explore the underlying mechanisms behind both of the shade-matching algorithms between the brands. By finding out the hue, saturation, and lightness of the foundation shades, it could lead to a better understanding of color-matching algorithms and technology which could lead to more inclusivity as well as accuracy in shades in makeup products in the future. In addition, policymakers can gain insight into the implications of shade inclusivity in the beauty industry for regulations and guidelines. This can help them explore ways to enforce diversity and inclusivity standards in the cosmetic industry and manufacturing of products. This can help ensure that consumers have access to products suiting their diverse skin tones. The interesting implication that the comparison of hue, saturation, and lightness can have is, does the brand has many shades where the shades are pretty similar and not as spread out, or are the shades more spread out and different from each other? This is what we wanted to explore with this analysis. 
+
 
 ### Limitations & Challenges
 What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
@@ -83,41 +88,62 @@ What challenges or limitations might you need to address with your project idea 
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
+There is a divide between white and black owned makeup companies when it comes to foundation shade. Through our research we attempt to answer the question of the varying shades in brand. Connecting the number of shades available with the diversity of a brand. Our analysis revealed that in 2018, Fenty, a black owned business, is more diverse than MAC. Fenty, along with their 42 shades of foundation to MAC’s 40 shade allows for not only a larger range of shades to choose from but a difference in shade variety through varying undertones. 
+
+Taking a further look at the data. 
+**Fenty has the highest (94) and lowest (25) lightness score when it comes to their foundation shades.** 
+Lightness scale is based on 10 point range between shade categories ranging from 0-100. The shades are categorized in ascending order with the darkest shade at the beginning (0-10). When evaluating the Hue, we pulled the highest and lowest number when evaluating shade range. Hue indicates the color used in the undertone of the foundation, which plays a direct role in shade variety when paired with saturation. 
+**Fenty uses a total of 13 unique types, while MAC uses 14.** 
+This alone cannot tell whether a brand has a more diverse shade range as saturation plays a large role in the overall shade color. When it comes to the saturation we searched for the highest value to indicate which shade offers the darker shades in association to the hue. Saturation is the strength in which the hue color appears. 
+**The highest saturation level was found in Fenty at 0.79 in a 0-1 range.**
+
 ### Table
 
 Include a table of aggregate information
 
+The table includes the product type and hexadecimal color to further identify the individual shade aside from the brand and product name as they are all the same.The columns chosen are the hue, saturation, and lightness variables as they are the information we decipher in the graphs. We chose to rename the hex, hue, saturation, and lightness columns to prevent misinformation of the data. The original data  had labeled the information using abbreviations (hex, H, S, L) which took a bit of searching on our part to find the meaning of each abbreviation. Once locating the key we chose to change the column name to make it accessible to readers who are unfamiliar with the topic. The table serves as a summary for the information presented in the graphs. The table is framed from highest lightness scale to the lowest, split between the two brands. 
+
+
 Describe why you included the table and what information it reveals
 
-### Chart 1
 
+
+### Chart 1: Histogram
+
+<<<<<<< HEAD
 Include a chart
-```{r}
-view(fenty_x_mac_table)
-```
 Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
 ```{r, echo = FALSE, code = readLines("chart1_example.R")}
+=======
+```{r, echo = FALSE, code = readLines("Chart 1.R")}
+>>>>>>> 2521b913ac65ec5258265228fff879656ace0b38
 ```
 
-### Chart 2
+The above data set shows the comparison of lightness shades of the two brands Fenty and Mac. Observing the data set you can see how Fenty Foundation has more darker shades than the brand Mac. On the other hand, Mac has more frequency of lightness foundation than Fenty. For example, in the dataset, Mac has six brands of foundation that appear to be lighter and one shade that is darker. Additionally, in this dataset, the brand Mac appears to cater to more lightness instead of having an equal distribution of shade ranges like Fenty. Moreover, one can make the inference that if you are a person of color then a wiser choice would be to use Fenty Foundation as it appears to be more inclusive than Mac.
 
-Include a chart
+### Chart 2: Box Plot
+
 ```{r, echo = FALSE, code = readLines("Chart 2.R")}
 ```
 
-Describe why you chose this chart and what information it reveals
+I used a box plot to compare the hues of foundations from Fenty and Mac. From this plot it is evident that is more inclusive of medium and darker skin tones. The range is greater for Fenty foundations hues as well.
 
-### Chart 3
-Include a chart
 
-Describe why you chose this chart and what information it reveals
+### Chart 3: Bar Graph
+
+This Bar Chart is included to show the difference in Saturation Levels of Foundation Shades between *Fenty Beauty and Mac Cosmetics*. According to *Iredale, J.*, saturation is defined as “How Intense the color is.”. The purpose of this chart is to show which brand had the highest saturation level and answer our question of, What role does Saturation levels play in Shade ranges. 
 
 ```{r, echo = FALSE, code = readLines("Chart 3.R")}
 ```
 
-In this chart, I have decided to evaluate the Saturation levels between Fenty and Mac Cosmetics in a bar chart model. Saturation is defined as “the level of intensity of a color”. Fenty is represented in Red, while Mac is represented in Blue. As we observe the chart, we can identify that Fenty has a higher saturation level than Mac. Why is that? When we look at the amount of dark shades Fenty produces compared to Mac, Fenty is the overall winner. Darker shades are mainly attributed to how saturated the shade is compared to lighter shades/colors. 
+From the bar chart, “Fenty vs. Mac: Saturation Level Differences”, we are evaluating the saturation levels, from the lowest at 0.0 and the highest at 0.8. As we observe the chart, we can identify that Fenty has a higher saturation level than Mac. Why is that? When we look at the number of dark shades Fenty produces compared to Mac, Fenty is the overall winner in producing Dark shades due to its high customer base who have a darker skin tone, while also including the fact that the Company is owned by a woman of color.  Darker shades are mainly attributed to how saturated the shade is compared to lighter shades/colors. When shades have higher results of saturation it results in foundation shades or colors being darker and when the saturation is low the lighter the color, in this case, the lighter the foundation shade. 
+
+According to our dataset, Mac had released 42 Foundation shades, while Fenty had released 39 Foundation shades when this data was taken. Even though Mac seems to have the advantage because they have released more shades compared to Fenty, why is their saturation levels low? This might have been influenced by them releasing foundation shades that were lighter and or releasing a smaller variation of dark shades than they have for lighter shades. This is not just something that relates to Mac and Fenty but the majority of beauty companies tend to drop more light-based shades in the early stages of production and then expand to darker shades as they get more consumers. 
 
 
+### Citations 
+
+Iredale, J. (n.d.). What color makeup should I wear? color theory simplified. jane iredale. https://janeiredale.com/blogs/makeup-blog/what-color-makeup-should-i-wear-color-theory-simplified#:~:text=Saturation%20is%20how%20intense%20the,have%20a%20lot%20of%20saturation.  
