@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # Load data from the URL
-foundation_dataset <- read.csv("https://raw.githubusercontent.com/the-pudding/data/master/makeup-shades/shades.csv")
+foundation_dataset <- read.csv("shades.csv")
 
 # Filter the data from Mac and Fenty brands
 
