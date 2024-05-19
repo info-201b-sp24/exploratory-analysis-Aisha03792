@@ -82,7 +82,8 @@ This analysis can have many implications. For example, Technologists can explore
 
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+Many of the challenges that we will address more broadly while working on this project include, making sure that the data that we are looking at, is up to date from each company, as they are constantly making updates and changes, to be able to correctly and be up to date with the data they are providing. Additionally, another limitation that we might need to address is the difference in price between Mac and Fenty, as Fenty is a luxury makeup brand compared to Mac, it might contradict why there might be more data on one side compared to the other based on affordability, and also on why one brand needs to be more inclusive and cater to their audience compared to another. Furthermore, a challenge that we might address in the projects might be how one company deciding to not be as inclusive as another might impact them financially or at all costs limit their potential customer reach.
 
 ### Summary Information
 
